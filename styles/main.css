@@ -1,0 +1,327 @@
+/* // genreal styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+
+/* // header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 93px;
+}
+
+.header__input {
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    width: 498px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.header__search {
+    border: none;
+    height: 40px;
+    text-align: left;
+}
+
+.header__search::placeholder {
+    padding-left: 20px;
+}
+
+.header__input--searchicon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.header__button {
+    border: none;
+    color: #ffffff;
+    background-color: #00B207;
+    height: 45px;
+    width: 98px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.header__button:hover {
+    cursor: pointer;
+}
+
+.header__input--search-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__cart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__cart--p {
+    font-size: 11px;
+    color: #4d4d4d;
+}
+
+.header__cart--p+p {
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-around;
+    height: 42px;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.location__store {
+    display: flex;
+    gap: 15px;
+}
+
+.location__lang {
+    display: flex;
+    gap: 10px;
+}
+
+.location__lang--p {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    color: #666666;
+}
+
+/* // nav */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li:hover {
+    color: #00B207;
+    cursor: pointer;
+}
+
+.nav__imig-number {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav__imig-number:hover {
+    cursor: pointer;
+    color: #00B207;
+}
+
+/* // main-gallery */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    gap: 20px;
+}
+
+.gallery_itemfreash {
+    background-image: url("../imges/headerimg/Bannar\ Big.png");
+    background-repeat: no-repeat;
+    width: 872px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    height: 600px;
+}
+
+.gallery_item-conteiner {
+    width: 800px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.gallery__itemfreash--gap {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery__itemfreash--gap p {
+    color: #ffffff;
+}
+
+.gallery_item {
+    background-image: url("../imges/headerimg/BG\ \(1\).png");
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 423px;
+    height: 288px;
+}
+
+.gallery_item__map {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery_item--best {
+    background-image: url("../imges/headerimg/BG.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery_item--best h2 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.gallery_item_map {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.gallery_item--best p {
+    font-size: 14px;
+}
+
+.gallery_item_map_summer {
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+.gallery_item_map_reep {
+    font-size: 32px;
+    color: #1a1a1a;
+}
+
+.gallery_item_map_reep+p {
+    color: #666666;
+    font-size: 14px;
+}
+
+
+
+.gallery__button {
+    color: #00B207;
+}
+
+.gallery_item-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gallery__button:hover {
+    cursor: pointer;
+}
+
+
+.gallery_item--button {
+    all: unset;
+    color: #00B207;
+}
+
+.gallery_item--teximg {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+.gallery_item--teximg:hover {
+    cursor: pointer;
+}
+
+.gallery_item--content {
+    display: flex;
+    all: unset;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#best {
+    color: #ffffff;
+}
+
+/* // featured */
+
+.featured {
+    display: flex;
+    justify-content: center;
+    height: 128px;
+    align-items: center;
+    gap: 20px;
+}
+
+.featured__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 306px;
+    height: 48px;
+    gap: 16px;
+}
+
+.featured-content {
+    width: 1320px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #999999;
+}
+
+.featured__content p {
+    color: #999999;
+    font-size: 14px;
+}
+
