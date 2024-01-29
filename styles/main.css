@@ -155,8 +155,10 @@ ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 650px;
+    flex-wrap: wrap;
     gap: 20px;
+    /* height: 650px;
+    gap: 20px; */
 }
 
 .gallery_itemfreash {
@@ -310,14 +312,15 @@ ul li:hover {
 }
 
 .featured-content {
-    width: 1320px;
-    height: 128px;
+    /* width: 1320px;
+    height: 128px; */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     border-radius: 8px;
     border: 1px solid #999999;
+    flex-wrap: wrap;
 }
 
 .featured__content p {
