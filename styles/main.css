@@ -14,12 +14,25 @@ h1 {
 
 
 /* // header */
+.header__conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.van__conteiner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #333333;
+}
 
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 93px;
+    width: 1200px;
 }
 
 .header__input {
@@ -88,8 +101,9 @@ h1 {
 
 .location {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 42px;
+    width: 1200px;
     align-items: center;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -118,10 +132,11 @@ h1 {
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 60px;
     background-color: #333333;
     color: #ffffff;
+    width: 1200px;
 }
 
 ul {
